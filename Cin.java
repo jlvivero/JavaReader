@@ -3,6 +3,7 @@ import javax.swing.*;
 
 public class Cin
 {
+	
 	//this methods will read basically every type of format, you can add new formats, and eventually I will generalize everything
 	public static int readint(String message)
 	{
