@@ -2,15 +2,26 @@ public class Test
 {
 	public static void main(String [] args)
 	{
-		int x;
-		x = C.in("dame un numero",0);
-		System.out.println(x);
-		double y;
-		y = C.in("dame un doble", 0.0);
-		System.out.println(y);
-		String s;
-		s = C.in("string now","");
-		System.out.println(s);
+		int foo;
+		double bar;
+		String baz;
+
+
+		foo = Win.readInt ("Enter an Integer");
+		System.out.println(foo);
+		bar = Win.readDouble ("Enter a Double");
+		System.out.println(bar);
+		baz = Win.readString ("Enter a String");
+		System.out.println(baz);
+
+		foo = Shell.readInt ("Enter an Integer");
+		System.out.println(foo);
+		bar = Shell.readDouble ("Enter a Double");
+		System.out.println(bar);
+		baz = Shell.readString ("Enter a String");
+		System.out.println(baz);
+
+
 
 	}
 } 
